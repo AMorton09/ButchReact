@@ -8,6 +8,11 @@
     border-radius: 80%;
 }
 
+.time-line{
+    position: relative;
+    left: 80px;
+}
+
 .App-header {
     background-image: -moz-linear-gradient(45deg, #FF8200 25%, transparent 25%),
     -moz-linear-gradient(-45deg, #FF8200 25%, transparent 25%),
