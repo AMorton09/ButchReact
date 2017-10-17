@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import butchie from './butch.gif';
+import butchieNo from './ButchNope.png';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={butchie} className="App-logo" alt="logo" />
-          <h1 className="App-title">NOPE!</h1>
+            <h1 className="App-title"><img src={butchieNo}/> </h1>
         </header>
         <p className="App-intro">
 

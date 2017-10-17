@@ -4,7 +4,7 @@
 
 .App-logo {
     animation: App-logo-spin infinite 80s linear;
-    height: 120px;
+    height: 320px;
     border-radius: 80%;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .App-title {
-    animation: App-title-wobble infinite 4s linear;
+    animation: App-title-wobble infinite 12s linear;
     font-size: 4em;
     color: #f54e40;
 
@@ -50,19 +50,19 @@
         transform: translateX(0%);
     }
     15% {
-        transform: translateX(-25%) rotate(-5deg);
+        transform: translateX(-25%) rotate(-33deg);
     }
     30% {
-        transform: translateX(20%) rotate(3deg);
+        transform: translateX(20%) rotate(33deg);
     }
     45% {
-        transform: translateX(-15%) rotate(-3deg);
+        transform: translateX(-15%) rotate(-33deg);
     }
     60% {
-        transform: translateX(10%) rotate(2deg);
+        transform: translateX(10%) rotate(33deg);
     }
     75% {
-        transform: translateX(-5%) rotate(-1deg);
+        transform: translateX(-5%) rotate(-33deg);
     }
     100% {
         transform: translateX(0%);
