@@ -10,17 +10,24 @@ class App extends Component {
 
       <div className="App">
         <header className="App-header">
-            <Timeline className="time-line"
+            <div className="time-line">
+            <Timeline
                       dataSource={{
                           sourceType: 'widget',
                           widgetId: '920322601217593345'
                       }}
                       options={{
                           username: '',
-                          height: '600'
+                          height: '850'
                       }}
                       onLoad={() => console.log('Timeline is loaded!')}
             />
+            </div>
+            <div className="butchType">
+                <p className="typing">
+                    Hello Volnation I know that we haven't had the best of times but its not the worst of times...
+                </p>
+            </div>
           <img src={butchie} className="App-logo" alt="logo" />
             <h1 className="App-title"><img src={butchieNo}/> </h1>
 
