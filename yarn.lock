@@ -5029,7 +5029,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.3.0, prop-types@^15.6.0:
+prop-types@^15.3.0, prop-types@^15.5.10, prop-types@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.0.tgz#ceaf083022fc46b4a35f69e13ef75aed0d639856"
   dependencies:
@@ -5235,6 +5235,12 @@ react-twitter-widgets@^1.7.1:
     lodash "^4.17.4"
     prop-types "^15.3.0"
     scriptjs "^2.5.8"
+
+react-typist@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-typist/-/react-typist-2.0.2.tgz#e9a1a46adcdc624d219869c27859763b033197d2"
+  dependencies:
+    prop-types "^15.5.10"
 
 "react@^15 || ^16", react@^16.0.0:
   version "16.0.0"

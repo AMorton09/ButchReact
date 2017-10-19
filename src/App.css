@@ -1,20 +1,5 @@
 .App {
     text-align: center;
-}
-
-.App-logo {
-    animation: App-logo-spin infinite 80s linear;
-    height: 320px;
-    border-radius: 80%;
-
-}
-
-.time-line{
-    position: fixed;
-    text-align: left;
-}
-
-.App-header {
     background-image: -moz-linear-gradient(45deg, #FF8200 25%, transparent 25%),
     -moz-linear-gradient(-45deg, #FF8200 25%, transparent 25%),
     -moz-linear-gradient(45deg, transparent 75%, #ff8200 75%),
@@ -31,11 +16,28 @@
     background-position: 0 0, 50px 0, 50px -50px, 0px 50px;
 }
 
+.App-logo {
+    animation: App-logo-spin infinite 80s linear;
+    height: 320px;
+    border-radius: 80%;
+
+}
+
+.time-line {
+    float: left;
+}
+
 .App-title {
     animation: App-title-wobble infinite 12s linear;
+    size: 60px;
 
-
-
+}
+.butchType{
+    color: #000;
+    text-align: left;
+    font-family: "Courier New";
+    font-size: 28pt;
+    font-style: oblique;
 }
 
 .App-intro {
@@ -44,7 +46,7 @@
 
 @keyframes App-logo-spin {
     from {
-        transform:  rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
         transform: rotate(60deg);
@@ -56,63 +58,21 @@
         transform: translateX(0%);
     }
     15% {
-        transform: translateX(-25%) rotate(-33deg);
+        transform: translateX(-15%) rotate(-20deg);
     }
     30% {
-        transform: translateX(20%) rotate(33deg);
+        transform: translateX(15%) rotate(20deg);
     }
     45% {
-        transform: translateX(-15%) rotate(-33deg);
+        transform: translateX(-15%) rotate(-20deg);
     }
     60% {
-        transform: translateX(10%) rotate(33deg);
+        transform: translateX(10%) rotate(20deg);
     }
     75% {
-        transform: translateX(-5%) rotate(-33deg);
+        transform: translateX(-5%) rotate(-20deg);
     }
     100% {
         transform: translateX(0%);
     }
-}
-.butchType{
-    color: Black;
-    position: fixed;
-    text-align: right;
-    font-family: "Courier";
-    font-size: 35px;
-    font-style: oblique;
-    margin: 0 0 0 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 20em;
-    animation: type 4s steps(60, end);
-}
-
-.butchType:nth-child(2){
-
-    animation: type2 8s steps(60, end);
-}
-
-.butchType a{
-    color: Black;
-    text-decoration: none;
-
-}
-
-span{
-    animation: blink 1s infinite;
-}
-
-@keyframes type{
-    from { width: 0; }
-}
-
-@keyframes type2{
-    0%{width: 0;}
-    50%{width: 0;}
-    100%{ width: 100; }
-}
-
-@keyframes blink{
-    to{opacity: .0;}
 }
