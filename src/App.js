@@ -4,7 +4,7 @@ import butchie from './butch.gif';
 import butchieNo from './ButchNope.png';
 import './App.css';
 import Typist from 'react-typist';
-import { Router, Route, Switch, Link } from 'react-router'
+
 
 class App extends Component {
     render() {
@@ -47,15 +47,7 @@ class App extends Component {
     }
 }
 
-class Nope extends Component {
-    render(){
-        return{
-            <div className="App">
-                <p>THINGS TO COME</p>
-            </div>
-        }
-    }
-}
+
 
 
 export default App;
